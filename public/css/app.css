@@ -1,0 +1,23 @@
+/* css */
+.navbar {
+    background-color: #d3ebf0;
+    font-size: 16px;
+    display: block;
+    height: 47 px;
+    padding: 14 px 11 px;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+body {
+    background-color: #fcf7c8;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.navbar-brand {
+    font-size: 2rem !important;
+}
+
+.nav-link {
+    font-size: 3rem;
+}
