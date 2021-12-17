@@ -92,10 +92,10 @@
                                 <div class="text">
                                     <span class="subheading">#New Arrival</span>
                                     <div class="horizontal">
-                                    <h1 class="mb-4 mt-3">Shoes Collection 2019</h1>
-                                    <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p>
+                                    <h1 class="mb-4 mt-3">Flowers Collection</h1>
+                                    {{-- <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p> --}}
                                     
-                                    <p><a href="#" class="btn-custom">Discover Now</a></p>
+                                    <p><a href="{{route('products.index')}}" class="btn-custom">Discover Now</a></p>
                                     </div>
                             </div>
                             </div>
@@ -112,10 +112,10 @@
                                 <div class="text">
                                     <span class="subheading">#New Arrival</span>
                                     <div class="horizontal">
-                                    <h1 class="mb-4 mt-3">New Shoes Winter Collection</h1>
+                                    <h1 class="mb-4 mt-3">New Flower Collection</h1>
                                     <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p>
                                     
-                                    <p><a href="#" class="btn-custom">Discover Now</a></p>
+                                    <p><a href="{{route('products.index')}}" class="btn-custom">Discover Now</a></p>
                                     </div>
                             </div>
                             </div>

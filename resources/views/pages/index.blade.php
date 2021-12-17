@@ -1,5 +1,15 @@
 @extends('layout.app')
 
+@section('style')
+  <style>
+      #item-product {
+        max-width: 200px;
+        max-height: 500px;
+        object-fit: contain;
+      }
+  </style>
+@endsection
+
 @section('content')
 <section class="ftco-section ftco-no-pt ftco-no-pb">
     <div class="container">
@@ -25,9 +35,12 @@
                       <div class="product d-flex flex-column border border-black">
                         <a href="{{route('products.show', $product->id)}}" class="img-prod"
                           ><img
+                            id="img-product"
                             class="img-fluid w-100"
-                            src="{{asset('image/product/Bouquet.png')}}"
-                            alt="Ressponsive image Colorlib Template"
+                            src="{{asset('image/product/'. $product->photo)}}"
+                            alt="Responsive image Colorlib Template"
+                            width="200" 
+                            height="500"
                           />
                           <div class="overlay"></div>
                         </a>

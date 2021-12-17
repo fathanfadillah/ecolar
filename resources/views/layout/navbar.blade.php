@@ -67,7 +67,7 @@ class="
 id="ftco-navbar"
 >
   <div class="container">
-    <a class="navbar-brand" href="{{route('/')}}">Ecolar</a>
+    <a class="navbar-brand" href="{{route('/')}}">Toko Pot Hendra</a>
     <button
       class="navbar-toggler"
       type="button"
