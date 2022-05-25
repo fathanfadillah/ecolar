@@ -87,12 +87,12 @@
                         <div class="overlay"></div>
                     <div class="container-fluid p-0">
                         <div class="row d-md-flex no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
-                            <img class="one-third order-md-last img-fluid" src="{{asset('image/banner/Vases-Mixed-flowers-Natural.gif')}}" alt="">
+                            <img class="one-third order-md-last" style="width:40%; height:87%; padding-right:5%" src="{{asset('image/banner/banner1.jpeg')}}" alt="">
                             <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
                                 <div class="text">
-                                    <span class="subheading">#New Arrival</span>
+                                    <span class="subheading">#New Product</span>
                                     <div class="horizontal">
-                                    <h1 class="mb-4 mt-3">Flowers Collection</h1>
+                                    <h1 class="mb-4 mt-3">Rak Bunga 1</h1>
                                     {{-- <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p> --}}
                                     
                                     <p><a href="{{route('products.index')}}" class="btn-custom">Discover Now</a></p>
@@ -107,13 +107,13 @@
                         <div class="overlay"></div>
                     <div class="container-fluid p-0">
                         <div class="py-4 row d-flex no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
-                            <img class="one-third order-md-last img-fluid" src="{{asset('image/banner/Lilies.gif')}}" alt="">
+                            <img class="one-third order-md-last img-fluid"style="width:40%; height:93%; padding-right:5%" src="{{asset('image/banner/banner2.jpeg')}}" alt="">
                             <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
                                 <div class="text">
-                                    <span class="subheading">#New Arrival</span>
+                                    <span class="subheading">#New Product</span>
                                     <div class="horizontal">
-                                    <h1 class="mb-4 mt-3">New Flower Collection</h1>
-                                    <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p>
+                                    <h1 class="mb-4 mt-3">Rak Bunga 2</h1>
+                                    {{-- <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p> --}}
                                     
                                     <p><a href="{{route('products.index')}}" class="btn-custom">Discover Now</a></p>
                                     </div>
@@ -138,8 +138,8 @@
               <div class="row mb-5">
                 <div class="col-md">
                   <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2">Minishop</h2>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                    <h2 class="ftco-heading-2">Toko Pot Hendra</h2>
+                    {{-- <p></p> --}}
                     <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                       <li class="ftco-animate"><a href="#"><span class="icon-shop"></span></a></li>
                       <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
@@ -150,10 +150,10 @@
                   <div class="ftco-footer-widget mb-4 ml-md-5">
                     <h2 class="ftco-heading-2">Menu</h2>
                     <ul class="list-unstyled">
-                      <li><a href="#" class="py-2 d-block">Shop</a></li>
-                      <li><a href="#" class="py-2 d-block">About</a></li>
-                      <li><a href="#" class="py-2 d-block">Journal</a></li>
-                      <li><a href="#" class="py-2 d-block">Contact Us</a></li>
+                      <li><a href="#" class="py-2 d-block">Home</a></li>
+                      <li><a href="{{route('products.index')}}" class="py-2 d-block">Products</a></li>
+                      <li><a href="{{route('about')}}" class="py-2 d-block">About</a></li>
+                      
                     </ul>
                   </div>
                 </div>
@@ -162,9 +162,10 @@
                       <h2 class="ftco-heading-2">Have a Questions?</h2>
                       <div class="block-23 mb-3">
                         <ul>
-                          <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                          <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                          <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                          <li><span class="icon icon-map-marker"></span><span class="text">Jalan Graha Bintaro Jaya Regency Gang Masjid Baitul Makmur No.38 Ciledug 
+                </span></li>
+                          <li><a href="#"><span class="icon icon-phone"></span><span class="text">+628 777 451 5414</span></a></li>
+                          <li><a href="#"><span class="icon icon-envelope"></span><span class="text">hansaditiaa@gmail.com</span></a></li>
                         </ul>
                       </div>
                   </div>
@@ -172,11 +173,9 @@
               </div>
               <div class="row">
                 <div class="col-md-12 text-center">
-      
-                  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Hans Aditia Lesmana <i class="icon-heart color-danger" aria-hidden="true"></i>
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                              </p>
+                  <p>
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Hans Aditia Lesmana
+                  </p>
                 </div>
               </div>
             </div>

@@ -14,23 +14,24 @@
     @php
         $categories = App\Models\Category::all();
     @endphp
-    {{-- Index Product  --}}
+    <!-- {{-- Index Product  --}} -->
 
-    {{-- @foreach ($products as $key => $products)
+    <!-- {{-- @foreach ($products as $key => $products)
     ------------------------------------------------- <br>
     {{ $key+1 }} | {{ $products->id }} | {{ $products->name }} | {{ $products->price }} <br>
-    @endforeach --}}
+    @endforeach --}} -->
     <div class="container d-flex mt-5 mb-1">
       <div class="btn-group">
-        <button type="button" class="btn btn-secondary">Category</button>
+        <!-- <button type="button" class="btn btn-secondary">Category</button>
         <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-expanded="false" data-reference="parent">
           <span class="sr-only">Toggle Dropdown</span>
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
           @foreach ($categories as $category)
+          
             <a class="dropdown-item" href="{{route('products_category', $category->id)}}">{{$category->name}}</a>              
           @endforeach
-        </div>
+        </div> -->
       </div>
       <div class="btn-group">
         <button type="button" class="btn btn-secondary">Sort By</button>
@@ -44,7 +45,7 @@
       </div>
       <div class="input-group">
         <form action="{{route('products_search')}}" method="GET">
-          <input id="search" name="search" type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+          <input id="search" name="search" type="text" class="form-control" placeholder="Nama Produk" aria-label="Nama Produk" aria-describedby="button-addon2">
             <div class="input-group-append">
               <input class="btn btn-outline-secondary" type="submit" value="Search" id="button-addon2">
             </div>
@@ -77,7 +78,7 @@
                         <div class="cat">
                           <span>{{$product->category->name}}</span>
                         </div>
-                        {{-- <div class="rating">
+                        <!-- {{-- <div class="rating">
                           <p class="text-right mb-0">
                             <a href="#"
                               ><span class="ion-ios-star-outline"></span
@@ -95,11 +96,11 @@
                               ><span class="ion-ios-star-outline"></span
                             ></a>
                           </p>
-                        </div> --}}
+                        </div> --}} -->
                       </div>
                       <h3><a href="#">{{$product->name}}</a></h3>
                       <div class="pricing">
-                        <p class="price"><span>${{$product->price}}</span></p>
+                        <p class="price"><span>Rp. {{$product->price}}</span></p>
                       </div>
                       <p class="bottom-area d-flex px-3">
                         <a href="{{route('products.show', $product->id)}}" class="add-to-cart text-center py-2 mr-1"
@@ -114,7 +115,7 @@
                   </div>
                 </div>
 
-                {{-- <div class="col-sm-12 col-md-12 col-lg-4 ftco-animate d-flex">
+                <!-- {{-- <div class="col-sm-12 col-md-12 col-lg-4 ftco-animate d-flex">
                   <div class="product d-flex flex-column">
                     <a href="#" class="img-prod"
                       ><img
@@ -484,10 +485,10 @@
                       </p>
                     </div>
                   </div>
-                </div> --}}
+                </div> --}} -->
                 @endforeach
               </div>
-              {{-- <div class="row mt-5">
+              <!-- {{-- <div class="row mt-5">
                 <div class="col text-center">
                   <div class="block-27">
                     <ul>
@@ -501,10 +502,10 @@
                     </ul>
                   </div>
                 </div>
-              </div> --}}
+              </div> --}} -->
             </div>
   
-            {{-- <div class="col-md-4 col-lg-2">
+            <!-- {{-- <div class="col-md-4 col-lg-2">
               <div class="sidebar">
                 <div class="sidebar-box-2">
                   <h2 class="heading">Categories</h2>
@@ -689,7 +690,7 @@
                   </form>
                 </div>
               </div>
-            </div> --}}
+            </div> --}} -->
           </div>
         </div>
       </section>

@@ -18,10 +18,16 @@ use App\Models\Product;
 */
 
 Route::get("/", function () {
+    // $key;
     $categories = Category::all();
+    // dd($categories);
     $products = Product::all()->take(3);
+    $tarikProduk = Product::all();
+    // $pot = product::all()->take(3)->where('name', 'Pot');
+    // $pupuk = product::all()->take(3)->where('name', 'Pupuk');
+    // $other= product::all()->take(3)->where('name', 'Other');
     $page = "home";
-    return view("pages.index", compact("categories", "products", "page"));
+    return view("pages.index", compact("categories", "products", "page","tarikProduk"));
 })->name("/");
 
 Route::get("/about", function () {
